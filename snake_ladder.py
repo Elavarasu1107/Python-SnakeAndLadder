@@ -24,6 +24,8 @@ def snake_ladder():
                 player_position = 0
         else:
             player_position += is_no_play
+        if player_position > winning_position:
+            player_position -= dice_value
 
     print("Player Position: ", player_position)
 
