@@ -8,7 +8,9 @@ def snake_ladder():
     :return: None
     """
     player_position = 0
+    dice_value = random.randint(1, 6)
     print("Player Position: ", player_position)
+    print("Dice Value: ", dice_value)
 
 
 if __name__ == '__main__':
